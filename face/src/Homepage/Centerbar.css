@@ -1,0 +1,14 @@
+.centerbar {
+  flex: 5; 
+  background-color: #f9f9f9;
+  padding: 20px;
+  min-height: calc(100vh - 70px); 
+  overflow-y: auto; 
+}
+.centerbarwrapper {
+  max-width: 600px;  
+  margin: 0 auto;   
+  display: flex;
+  flex-direction: column;
+  gap: 20px;         
+}

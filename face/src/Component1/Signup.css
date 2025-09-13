@@ -1,0 +1,144 @@
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+.registercontainer {
+  background: #fff;
+  padding: 25px 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 380px;
+  max-width: 90%;
+}
+
+
+.registercontainer h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #1877f2;
+  margin-bottom: 5px;
+}
+
+.registercontainer p {
+  text-align: center;
+  font-size: 14px;
+  color: #606770;
+  margin-bottom: 20px;
+}
+
+
+.row {
+  margin-bottom: 15px;
+}
+
+.registername,
+.center input,
+.registerdate2,
+.registerdate3,
+.registerdate4 {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccd0d5;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+
+.registerdate,
+.registergender {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+
+.registerdate2,
+.registerdate3,
+.registerdate4 {
+  width: 32%;
+  display: inline-block;
+}
+
+
+.registerradiocontainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 15px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+
+.registerpolicy {
+  font-size: 12px;
+  color: #606770;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.registerpolicy span {
+  color: #1877f2;
+  cursor: pointer;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #42b72a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #36a420;
+}
+
+
+.registerlogin {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #1877f2;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+}
+
+.registerlogin:hover {
+  text-decoration: underline;
+}
+.warning {
+  color: red;
+  font-size: 14px;
+  margin: 5px 0;
+  text-align: center;
+  font-weight: bold;
+}
+.registerlogin{
+  text-decoration: none;
+}
+

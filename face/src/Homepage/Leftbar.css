@@ -1,0 +1,50 @@
+.leftbar {
+  flex: 3;
+  height: 90vh; 
+ }
+.leftbarwrapper{
+    padding: 20px;
+}
+.leftbarlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.leftbarlistitems {
+  display: flex;
+  align-items: center;
+   margin-bottom: 20px;
+  
+}
+.leftbaricon {
+ margin-right: 15px;
+  }
+.leftbarhr {
+  margin: 20px ;
+     
+}
+.leftbarbutton {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+ font-weight: 600;
+}
+.leftbarfriendlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.leftbarfriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+ 
+}
+.leftbarfriendimg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
