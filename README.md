@@ -1,0 +1,1 @@
+This project is a Facebook UI clone built using ReactJS. It replicates the core layout of Facebook including the Topbar for navigation, Left Sidebar with menus, Center Feed containing posts and a share section, and Right Sidebar for online friends and birthdays. The UI is fully responsive and styled with CSS, and makes use of React Icons to enhance the design.
